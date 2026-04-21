@@ -1,0 +1,1 @@
+- Prefer idiomatic, framework-native solutions over generic or cross-framework abstractions.

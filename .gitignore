@@ -1,0 +1,64 @@
+# ------------------------------
+# OS / editor noise
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+
+# ------------------------------
+# Node / tooling (if applicable)
+# ------------------------------
+node_modules/
+dist/
+build/
+.cache/
+*.log
+
+# ------------------------------
+# Env / secrets (CRITICAL)
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# API keys, tokens, credentials
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+auth/
+
+# ------------------------------
+# Agent-specific local state
+# ------------------------------
+# Local overrides of configs/prompts
+*.local.*
+*.override.*
+overrides/
+
+# Runtime memory / caches
+.cache/
+tmp/
+temp/
+logs/
+*.db
+*.sqlite
+
+# Agent outputs / scratch
+outputs/
+runs/
+sessions/
+
+# ------------------------------
+# CLI / local command installs
+# ------------------------------
+# Example: Bob / Claude / custom agent dirs
+.bob/
+.claude/
+.cursor/
+.ai/
